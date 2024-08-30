@@ -1,0 +1,1 @@
+{"component":{"calendar":{"entity_component":{"_":{"name":"التقويم","state":{"off":"إيقاف","on":"تشغيل"}}}},"update":{"entity_component":{"_":{"state":{"on":"يوجد تحديث"},"state_attributes":{"auto_update":{"name":"تحديث تلقائي"}}}}}}}

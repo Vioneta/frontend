@@ -1,0 +1,1 @@
+{"component":{"calendar":{"entity_component":{"_":{"name":"Calendario","state":{"off":"Desactivado","on":"Encendido"},"state_attributes":{"all_day":{"state":{"false":"No","true":"Sí"}}}}}}}}

@@ -1,0 +1,19 @@
+{
+  "id": 1872762488,
+  "node_id": "MDg6QXJ0aWZhY3QxODcyNzYyNDg4",
+  "name": "translations",
+  "size_in_bytes": 4735079,
+  "url": "https://api.github.com/repos/home-assistant/frontend/actions/artifacts/1872762488",
+  "archive_download_url": "https://api.github.com/repos/home-assistant/frontend/actions/artifacts/1872762488/zip",
+  "expired": false,
+  "created_at": "2024-08-30T01:51:25Z",
+  "updated_at": "2024-08-30T01:51:25Z",
+  "expires_at": "2024-11-28T01:30:06Z",
+  "workflow_run": {
+    "id": 10625254254,
+    "repository_id": 38982731,
+    "head_repository_id": 38982731,
+    "head_branch": "dev",
+    "head_sha": "05a27b939934c5a9faba903a4595a5038e99f78a"
+  }
+}
