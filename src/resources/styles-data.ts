@@ -1,16 +1,16 @@
-export const DEFAULT_PRIMARY_COLOR = "#03a9f4" as const;
-export const DEFAULT_ACCENT_COLOR = "#ff9800" as const;
+export const DEFAULT_PRIMARY_COLOR = "#c23251" as const;
+export const DEFAULT_ACCENT_COLOR = "#3292c2" as const;
 
 export const darkStyles = {
-  "primary-background-color": "#111111",
-  "card-background-color": "#1c1c1c",
-  "secondary-background-color": "#282828",
-  "clear-background-color": "#111111",
+  "primary-background-color": "#38292e",
+  "card-background-color": "#26161b",
+  "secondary-background-color": "#575353",
+  "clear-background-color": "#26161b",
   "primary-text-color": "#e1e1e1",
   "secondary-text-color": "#9b9b9b",
   "disabled-text-color": "#6f6f6f",
   "app-header-text-color": "#e1e1e1",
-  "app-header-background-color": "#101e24",
+  "app-header-background-color": "#1a0f12",
   "switch-unchecked-button-color": "#999999",
   "switch-unchecked-track-color": "#9b9b9b",
   "divider-color": "rgba(225, 225, 225, .12)",

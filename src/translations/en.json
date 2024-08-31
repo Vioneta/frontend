@@ -6597,7 +6597,7 @@
         "abort_intro": "Login aborted",
         "store_token": "Keep me logged in",
         "help": "Help",
-        "welcome_home": "Welcome home!",
+        "welcome_home": "Welcome to Vioneta Agro!",
         "just_checking": "Just checking",
         "who_is_logging_in": "Who is logging in?",
         "other_options": "Other login options",
@@ -6704,7 +6704,7 @@
           "demo": {
             "demo_by": "by {name}",
             "next_demo": "Next demo",
-            "introduction": "Welcome home! You've reached the Vioneta Agro demo where we showcase the best UIs created by our community.",
+            "introduction": "Welcome to Vioneta Agro! You've reached the Vioneta Agro demo where we showcase the best UIs created by our community.",
             "learn_more": "Learn more about Vioneta Agro"
           }
         },
