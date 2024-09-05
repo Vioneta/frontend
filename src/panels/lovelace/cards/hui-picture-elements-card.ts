@@ -56,7 +56,8 @@ class HuiPictureElementsCard extends LitElement implements LovelaceCard {
           },
         },
       ],
-      image: "https://demo.home-assistant.io/stub_config/floorplan.png",
+      image:
+        "https://raw.githubusercontent.com/Vioneta/public-images/main/farm-map.png",
     };
   }
 
