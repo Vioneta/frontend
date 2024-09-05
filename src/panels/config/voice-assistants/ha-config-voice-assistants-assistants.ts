@@ -53,7 +53,7 @@ export class HaConfigVoiceAssistantsAssistants extends LitElement {
                 ></assist-pref>
               `
             : nothing}
-          ${this.cloudStatus?.logged_in
+          <!-- ${this.cloudStatus?.logged_in
             ? html`
                 <cloud-alexa-pref
                   .hass=${this.hass}
@@ -66,7 +66,7 @@ export class HaConfigVoiceAssistantsAssistants extends LitElement {
                   .cloudStatus=${this.cloudStatus}
                 ></cloud-google-pref>
               `
-            : html`<cloud-discover .hass=${this.hass}></cloud-discover>`}
+            : html`<cloud-discover .hass=${this.hass}></cloud-discover>`} -->
         </div>
       </hass-tabs-subpage>
     `;

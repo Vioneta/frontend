@@ -52,72 +52,72 @@ import "../repairs/ha-config-repairs";
 import "./ha-config-navigation";
 import "./ha-config-updates";
 
-const randomTip = (hass: HomeAssistant, narrow: boolean) => {
-  const weighted: string[] = [];
-  let tips = [
-    {
-      content: hass.localize("ui.panel.config.tips.join", {
-        forums: html`<a
-          href="https://community.home-assistant.io"
-          target="_blank"
-          rel="noreferrer"
-          >${hass.localize("ui.panel.config.tips.join_forums")}</a
-        >`,
-        twitter: html`<a
-          href=${documentationUrl(hass, `/twitter`)}
-          target="_blank"
-          rel="noreferrer"
-          >${hass.localize("ui.panel.config.tips.join_x")}</a
-        >`,
-        discord: html`<a
-          href=${documentationUrl(hass, `/join-chat`)}
-          target="_blank"
-          rel="noreferrer"
-          >${hass.localize("ui.panel.config.tips.join_chat")}</a
-        >`,
-        blog: html`<a
-          href=${documentationUrl(hass, `/blog`)}
-          target="_blank"
-          rel="noreferrer"
-          >${hass.localize("ui.panel.config.tips.join_blog")}</a
-        >`,
-        newsletter: html`<span class="keep-together"
-          ><a
-            href="https://newsletter.openhomefoundation.org/"
-            target="_blank"
-            rel="noreferrer"
-            >${hass.localize("ui.panel.config.tips.join_newsletter")}</a
-          >
-        </span>`,
-      }),
-      weight: 2,
-      narrow: true,
-    },
-  ];
+// const randomTip = (hass: HomeAssistant, narrow: boolean) => {
+//   const weighted: string[] = [];
+//   let tips = [
+//     {
+//       content: hass.localize("ui.panel.config.tips.join", {
+//         forums: html`<a
+//           href="https://community.home-assistant.io"
+//           target="_blank"
+//           rel="noreferrer"
+//           >${hass.localize("ui.panel.config.tips.join_forums")}</a
+//         >`,
+//         twitter: html`<a
+//           href=${documentationUrl(hass, `/twitter`)}
+//           target="_blank"
+//           rel="noreferrer"
+//           >${hass.localize("ui.panel.config.tips.join_x")}</a
+//         >`,
+//         discord: html`<a
+//           href=${documentationUrl(hass, `/join-chat`)}
+//           target="_blank"
+//           rel="noreferrer"
+//           >${hass.localize("ui.panel.config.tips.join_chat")}</a
+//         >`,
+//         blog: html`<a
+//           href=${documentationUrl(hass, `/blog`)}
+//           target="_blank"
+//           rel="noreferrer"
+//           >${hass.localize("ui.panel.config.tips.join_blog")}</a
+//         >`,
+//         newsletter: html`<span class="keep-together"
+//           ><a
+//             href="https://newsletter.openhomefoundation.org/"
+//             target="_blank"
+//             rel="noreferrer"
+//             >${hass.localize("ui.panel.config.tips.join_newsletter")}</a
+//           >
+//         </span>`,
+//       }),
+//       weight: 2,
+//       narrow: true,
+//     },
+//   ];
 
-  if (hass?.enableShortcuts) {
-    tips.push(
-      {
-        content: hass.localize("ui.tips.key_c_hint"),
-        weight: 1,
-        narrow: false,
-      },
-      { content: hass.localize("ui.tips.key_m_hint"), weight: 1, narrow: false }
-    );
-  }
+//   if (hass?.enableShortcuts) {
+//     tips.push(
+//       {
+//         content: hass.localize("ui.tips.key_c_hint"),
+//         weight: 1,
+//         narrow: false,
+//       }
+//       // { content: hass.localize("ui.tips.key_m_hint"), weight: 1, narrow: false }
+//     );
+//   }
 
-  if (narrow) {
-    tips = tips.filter((tip) => tip.narrow);
-  }
+//   if (narrow) {
+//     tips = tips.filter((tip) => tip.narrow);
+//   }
 
-  tips.forEach((tip) => {
-    for (let i = 0; i < tip.weight; i++) {
-      weighted.push(tip.content);
-    }
-  });
+//   tips.forEach((tip) => {
+//     for (let i = 0; i < tip.weight; i++) {
+//       weighted.push(tip.content);
+//     }
+//   });
 
-  return weighted[Math.floor(Math.random() * weighted.length)];
-};
+//   return weighted[Math.floor(Math.random() * weighted.length)];
+// };
 
 @customElement("ha-config-dashboard")
 class HaConfigDashboard extends SubscribeMixin(LitElement) {
@@ -294,7 +294,7 @@ class HaConfigDashboard extends SubscribeMixin(LitElement) {
               )}
             ></ha-config-navigation>
           </ha-card>
-          <ha-tip .hass=${this.hass}>${this._tip}</ha-tip>
+          <!-- <ha-tip .hass=${this.hass}>${this._tip}</ha-tip> -->
         </ha-config-section>
       </ha-top-app-bar-fixed>
     `;
@@ -303,9 +303,9 @@ class HaConfigDashboard extends SubscribeMixin(LitElement) {
   protected override updated(changedProps: PropertyValues): void {
     super.updated(changedProps);
 
-    if (!this._tip && changedProps.has("hass")) {
-      this._tip = randomTip(this.hass, this.narrow);
-    }
+    // if (!this._tip && changedProps.has("hass")) {
+    //   this._tip = randomTip(this.hass, this.narrow);
+    // }
   }
 
   private _filterUpdateEntitiesWithInstall = memoizeOne(
