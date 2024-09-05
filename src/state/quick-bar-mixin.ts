@@ -102,10 +102,10 @@ export default <T extends Constructor<HassElement>>(superClass: T) =>
             if (redirect.redirect === "/hassio/addon") {
               myParams.append("addon", targetPath.split("/")[3]);
             }
-            window.open(
-              `https://my.home-assistant.io/create-link/?${myParams.toString()}`,
-              "_blank"
-            );
+            // window.open(
+            //   `https://my.home-assistant.io/create-link/?${myParams.toString()}`,
+            //   "_blank"
+            // );
             return;
           }
         }
@@ -126,10 +126,10 @@ export default <T extends Constructor<HassElement>>(superClass: T) =>
               }
             }
           }
-          window.open(
-            `https://my.home-assistant.io/create-link/?${myParams.toString()}`,
-            "_blank"
-          );
+          // window.open(
+          //   `https://my.home-assistant.io/create-link/?${myParams.toString()}`,
+          //   "_blank"
+          // );
           return;
         }
       }

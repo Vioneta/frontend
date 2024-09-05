@@ -1,0 +1,1 @@
+{"component":{"calendar":{"entity_component":{"_":{"name":"Kalender","state":{"off":"Af","on":"Aan"}}}},"light":{"entity_component":{"_":{"name":"إضاءة","state":{"off":"مطفئ","on":"يعمل"},"state_attributes":{"brightness":{"name":"قوة الإضاءة"}}}}}}}
