@@ -1180,7 +1180,7 @@
                 "messages": {
                     "became_unavailable": "è diventato non disponibile",
                     "became_unknown": "è diventato sconosciuto",
-                    "changed_to_state": "cambiato in {state}",
+                    "changed_to_state": "è cambiato in {state}",
                     "cleared_device_class": "sgombro (nessun {device_class} rilevato)",
                     "cleared_tampering": "manomissione risolta",
                     "detected_device_class": "rilevato {device_class}",
@@ -2899,7 +2899,7 @@
                                 },
                                 "zone": {
                                     "description": {
-                                        "full": "Conferma che {entity} {numberOfEntities, plural,\n one {è}\n other {sono}\n} in {zone} {numberOfZones, plural,\n one {zona} \n other {zone}\n} ",
+                                        "full": "Conferma che {entity} {numberOfEntities, plural,\n one {è}\n other {sono}\n} in {numberOfZones, plural,\n one {zona} \n other {zone}\n} {zone}",
                                         "picker": "Se qualcuno (o qualcosa) è nella zona"
                                     },
                                     "entity": "Entità con posizione",
@@ -3135,8 +3135,8 @@
                                 "sun": {
                                     "description": {
                                         "picker": "Quando il sole tramonta o sorge",
-                                        "rises": "Quando sorge il sole {hasDuration, select, \n true { scostamento di {duration}} \n other {}\n }",
-                                        "sets": "Quando il sole tramonta{hasDuration, select, \n true { scostamento di {duration}} \n other {}\n }"
+                                        "rises": "Quando sorge il sole {hasDuration, select, \n true { con scostamento di {duration}} \n other {}\n }",
+                                        "sets": "Quando tramonta il sole {hasDuration, select, \n true { con scostamento di {duration}} \n other {}\n }"
                                     },
                                     "event": "Evento:",
                                     "label": "Sole",
@@ -5410,7 +5410,7 @@
                         "channel_has_been_changed": "Il canale di rete è stato modificato",
                         "description": "Cambia il canale Zigbee solo dopo aver eliminato tutte le altre fonti di interferenza a 2,4 GHz utilizzando una prolunga USB e allontanando il coordinatore da dispositivi e porte USB 3.0, SSD, reti WiFi a 2,4 GHz sullo stesso canale, schede madri e così via.",
                         "devices_will_rejoin": "I dispositivi si ricongiungeranno alla rete nel tempo. L'operazione potrebbe richiedere alcuni minuti.",
-                        "migration_warning": "La migrazione dei canali Zigbee è una funzionalità sperimentale e si basa sui dispositivi della rete per supportarla. Il supporto del dispositivo per questa funzione varia e solo una parte della rete potrebbe finire per migrare!",
+                        "migration_warning": "La migrazione dei canali Zigbee è una funzionalità sperimentale e si basa sui dispositivi della rete per supportarla. Il supporto del dispositivo per questa funzione varia e solo una parte della rete potrebbe finire per migrare! Potrebbe volerci fino a un ora per propagare i cambiamenti a tutti i dispositivi.",
                         "new_channel": "Nuovo canale",
                         "smart_explanation": "Si consiglia di utilizzare l'opzione \"Intelligente\" una volta ottimizzato l'ambiente invece di scegliere manualmente un canale, in quanto sceglie il canale migliore per l'utente dopo aver scansionato tutti i canali Zigbee. In questo modo ZHA non può cambiare automaticamente i canali in futuro, ma cambia il canale una sola volta.",
                         "title": "Cambia canale di rete"
@@ -6576,9 +6576,9 @@
                             "refresh_interval": "Intervallo di aggiornamento",
                             "search": "Ricerca",
                             "secondary_info_attribute": "Attributo informazioni secondarie",
-                            "show_icon": "Mostrare l'icona?",
-                            "show_name": "Mostrare il nome?",
-                            "show_state": "Mostrare lo stato?",
+                            "show_icon": "Mostra l'icona",
+                            "show_name": "Mostra il nome",
+                            "show_state": "Mostra lo stato",
                             "state": "Stato",
                             "state_color": "Vuoi colorare le icone in base allo stato?",
                             "suggested_cards": "Schede suggerite",

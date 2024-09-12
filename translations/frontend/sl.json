@@ -1619,7 +1619,8 @@
                 "did_not_understand": "Tega nisem povsem razumel",
                 "error": "Ups, prišlo je do napake",
                 "found": "Za vas sem našel naslednje:",
-                "how_can_i_help": "Kako lahko pomagam?"
+                "how_can_i_help": "Kako lahko pomagam?",
+                "title": "Pomočnik"
             },
             "zha_device_info": {
                 "buttons": {
@@ -3698,6 +3699,11 @@
                                     "tts_language": "Jezik",
                                     "tts_voice": "Glas"
                                 },
+                                "steps": {
+                                    "config": {
+                                        "title": "Konfiguracija"
+                                    }
+                                },
                                 "update_assistant_action": "Posodobi"
                             }
                         }
@@ -4253,7 +4259,8 @@
                 "charts": {
                     "by_device": "Poraba naprave",
                     "solar": "Sončna",
-                    "stat_house_energy_meter": "Skupna poraba energije"
+                    "stat_house_energy_meter": "Skupna poraba energije",
+                    "untracked_consumption": "Neizmerjena poraba"
                 },
                 "compare": {
                     "info": "Primerjate obdobje {start} z obdobjem {end}"
@@ -4298,6 +4305,9 @@
                             "card_indicates_energy_used": "Na tej kartici je navedeno, koliko energije, porabljene v vašem domu, je bilo proizvedene z uporabo nefosilnih goriv, kot so sonce, veter in jedrska energija. Čim več, tem bolje!",
                             "low_carbon_energy_consumed": "Nizkoogljična poraba energije",
                             "low_carbon_energy_not_calculated": "Porabljene nizkoogljične energije ni bilo mogoče izračunati"
+                        },
+                        "energy_devices_detail_graph": {
+                            "untracked_consumption": "Neizmerjena poraba"
                         },
                         "energy_devices_graph": {
                             "energy_usage": "Poraba energije",
@@ -4403,7 +4413,7 @@
                 "editor": {
                     "action-editor": {
                         "actions": {
-                            "assist": "Pomoč",
+                            "assist": "Pomočnik",
                             "more-info": "Več informacij",
                             "navigate": "Pojdi",
                             "toggle": "Preklop",
@@ -4907,6 +4917,7 @@
                     }
                 },
                 "menu": {
+                    "assist": "Pomočnik",
                     "close": "Zapri",
                     "configure_ui": "Uredi nadzorno ploščo",
                     "exit_edit_mode": "Končano",

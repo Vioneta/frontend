@@ -5360,6 +5360,7 @@
                         "bitmask": "Bitmask",
                         "endpoint": "Endpoint {endpoint}",
                         "error_device_not_found": "Device not found",
+                        "error_not_in_range": "La valeur doit être comprise entre {min} et {max}",
                         "header": "Z-Wave Device Configuration",
                         "introduction": "Manage and adjust device specific configuration parameters for the selected device",
                         "parameter": "Parameter",
@@ -6710,7 +6711,7 @@
                         "yaml_mode": "You are using YAML mode for this dashboard, which means you cannot change your dashboard config from the UI. If you want to manage this dashboard from the UI, remove 'mode: yaml' from your dashboard configuration in 'configuration.yaml.'."
                     },
                     "section": {
-                        "add_badge": "Ajouter un badge",
+                        "add_badge": "Add a badge",
                         "create_section": "Create section"
                     },
                     "select_view": {

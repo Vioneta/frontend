@@ -5686,9 +5686,11 @@
                     "node_config": {
                         "attribution": "由 {device_database} 所提供之裝置設定參數與說明",
                         "battery_device_notice": "電池供電裝置必須喚醒以更新其設定。請參考您的裝置手冊以了解如何喚醒裝置。",
+                        "between_min_max": "介於 {min} 與 {max} 之間",
                         "bitmask": "Bitmask",
                         "endpoint": "端點 {endpoint}",
                         "error_device_not_found": "找不到裝置",
+                        "error_not_in_range": "數值必須介於 {min} 與 {max} 之間",
                         "header": "Z-Wave 裝置設定",
                         "introduction": "管理與調整所選擇裝置之特定設定參數",
                         "parameter": "參數",
@@ -5873,8 +5875,8 @@
                             "Error_InvalidFirmwareID": "韌體 ID 無效",
                             "Error_InvalidFirmwareTarget": "韌體目標無效",
                             "Error_InvalidHardwareVersion": "硬體版本無效",
-                            "Error_InvalidHeaderFormat": "Header 格式無效",
-                            "Error_InvalidHeaderInformation": "Header 資訊無效",
+                            "Error_InvalidHeaderFormat": "頁首區塊格式無效",
+                            "Error_InvalidHeaderInformation": "頁首區塊資訊無效",
                             "Error_InvalidManufacturerID": "廠牌 ID 無效",
                             "Error_NotSupported": "韌體更新不支援",
                             "Error_RetryLimitReached": "已達重試限制",
@@ -6912,8 +6914,8 @@
                         "header": "實體章設定",
                         "pick_badge": "選擇所要新增的實體章？",
                         "pick_badge_title": "新增實體章至 {name}",
-                        "show_code_editor": "顯示編碼編輯器",
-                        "show_visual_editor": "顯示視覺編輯器",
+                        "show_code_editor": "使用文字編輯器",
+                        "show_visual_editor": "使用視覺編輯器",
                         "tab_config": "設定",
                         "tab_visibility": "可視度",
                         "toggle_editor": "切換編輯器",
@@ -6954,8 +6956,8 @@
                         "pick_card_title": "新增面板至 {name}",
                         "pick_card_view_title": "選擇加入 {name} 畫布的面板？",
                         "search_cards": "搜尋面板",
-                        "show_code_editor": "顯示編碼編輯器",
-                        "show_visual_editor": "顯示視覺編輯器",
+                        "show_code_editor": "使用文字編輯器",
+                        "show_visual_editor": "使用視覺編輯器",
                         "tab-config": "設定",
                         "tab-visibility": "可視度",
                         "tab_config": "設定",
@@ -7220,8 +7222,8 @@
                     "header": "編輯 UI",
                     "header-footer": {
                         "choose_header_footer": "選擇{type}",
-                        "footer": "Footer",
-                        "header": "Header",
+                        "footer": "頁尾區塊",
+                        "header": "頁首區塊",
                         "types": {
                             "buttons": {
                                 "name": "按鈕"
@@ -7299,8 +7301,8 @@
                     "strategy-editor": {
                         "header": "編輯儀表板",
                         "raw_configuration_editor": "文字模式編輯器",
-                        "show_code_editor": "顯示編碼編輯器",
-                        "show_visual_editor": "顯示視覺編輯器",
+                        "show_code_editor": "使用文字編輯器",
+                        "show_visual_editor": "使用視覺編輯器",
                         "take_control": "接管"
                     },
                     "strategy": {
@@ -7319,8 +7321,8 @@
                             "element": "元素編輯器",
                             "element_type": "{type} 元素編輯器",
                             "feature": "功能編輯器",
-                            "footer": "Footer 編輯器",
-                            "header": "Header 編輯器",
+                            "footer": "頁尾區塊編輯器",
+                            "header": "頁首區塊編輯器",
                             "row": "實體編輯器"
                         }
                     },

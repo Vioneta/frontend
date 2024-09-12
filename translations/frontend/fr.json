@@ -5686,9 +5686,11 @@
                     "node_config": {
                         "attribution": "Les paramètres et descriptions de configuration des appareils sont fournis par {device_database}",
                         "battery_device_notice": "Les appareils à batterie doivent être réveillés pour mettre à jour leur configuration. Veuillez consulter le manuel de votre appareil pour savoir comment réveiller l'appareil.",
+                        "between_min_max": "Entre {min} et {max}",
                         "bitmask": "Masque de bits",
                         "endpoint": "Point de terminaison {endpoint}",
                         "error_device_not_found": "Appareil non trouvé",
+                        "error_not_in_range": "La valeur doit être comprise entre {min} et {max}",
                         "header": "Configuration de l'appareil Z-Wave",
                         "introduction": "Gérer et ajuster les paramètres de configuration spécifiques à l'appareil pour l'appareil sélectionné",
                         "parameter": "Paramètre",

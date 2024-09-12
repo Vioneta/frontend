@@ -5686,9 +5686,11 @@
                     "node_config": {
                         "attribution": "Device configuration parameters and descriptions are provided by the {device_database}",
                         "battery_device_notice": "Battery devices must be awake to update their config. Please refer to your device manual for instructions on how to wake the device.",
+                        "between_min_max": "Between {min} and {max}",
                         "bitmask": "Bitmask",
                         "endpoint": "Endpoint {endpoint}",
                         "error_device_not_found": "Device not found",
+                        "error_not_in_range": "Value must be between {min} and {max}",
                         "header": "Z-Wave device configuration",
                         "introduction": "Manage and adjust device specific configuration parameters for the selected device",
                         "parameter": "Parameter",

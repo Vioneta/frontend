@@ -5686,9 +5686,11 @@
                     "node_config": {
                         "attribution": "Seadme parameetrid ja kirjeldused on esitatud {device_database}",
                         "battery_device_notice": "Patareitoitel seadmed peavad olema ärkvel, et värskendada oma sätteid. Seadme äratamiseks vaata oma seadme kasutusjuhendit.",
+                        "between_min_max": "Vahemikus {min} kuni {max}",
                         "bitmask": "Bitmask",
                         "endpoint": "Lõpp-punkt {endpoint}",
                         "error_device_not_found": "Seadet ei leitud",
+                        "error_not_in_range": "Väärtus peab olema vahemikus {min} kuni {max}",
                         "header": "Z-Wave seadme häälestamine",
                         "introduction": "Valitud seadme spetsiifiliste seadistuste haldamine ja muutmine",
                         "parameter": "Parameeter",

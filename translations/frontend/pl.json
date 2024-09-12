@@ -1899,7 +1899,7 @@
                 "history": "Historia",
                 "info": "Informacja",
                 "last_changed": "Ostatnia zmiana",
-                "last_updated": "Ostatnio zaktualizowano",
+                "last_updated": "Ostatnia aktualizacja",
                 "lawn_mower": {
                     "activity": "Aktywność",
                     "commands": "Polecenia kosiarki:",
@@ -5998,7 +5998,7 @@
                         "filter_entities": "Filtr encji",
                         "filter_states": "Filtr stanów",
                         "last_changed": "Ostatnia zmiana",
-                        "last_updated": "Ostatnio zaktualizowano",
+                        "last_updated": "Ostatnia aktualizacja",
                         "more_info": "Więcej informacji",
                         "no_entities": "Brak encji",
                         "set_state": "Ustaw stan",
@@ -6405,7 +6405,7 @@
                             "interactions": "Interakcje",
                             "name": "Encja",
                             "show_entity_picture": "Pokaż obraz encji",
-                            "state_content": "Atrybuty"
+                            "state_content": "Zawartość stanu"
                         },
                         "generic": {
                             "custom_badges": "Niestandardowe odznaki",
@@ -6732,10 +6732,10 @@
                             "interactions": "Interakcje",
                             "name": "Kafelek",
                             "show_entity_picture": "Pokaż zdjęcie encji",
-                            "state_content": "Atrybuty",
+                            "state_content": "Zawartość stanu",
                             "state_content_options": {
                                 "last-changed": "Ostatnia zmiana",
-                                "last-updated": "ostatnio aktualizowany",
+                                "last-updated": "Ostatnia aktualizacja",
                                 "state": "Stan"
                             },
                             "vertical": "Pionowo"
@@ -7046,7 +7046,7 @@
                             "climate-hvac-modes": {
                                 "customize_modes": "Dostosuj tryby HVAC",
                                 "hvac_modes": "Tryby HVAC",
-                                "label": "Tryby klimatyzacji",
+                                "label": "Tryby pracy",
                                 "style": "Styl",
                                 "style_list": {
                                     "dropdown": "Lista rozwijana",

@@ -5685,9 +5685,11 @@
                     "node_config": {
                         "attribution": "Parameter konfigurasi dan deskripsi perangkat disediakan oleh proyek {device_database}.",
                         "battery_device_notice": "Perangkat dengan baterai harus dalam keadaan aktif untuk memperbarui konfigurasinya. Rujuk manual perangkat Anda untuk mendapatkan instruksi tentang cara membangunkan perangkat.",
+                        "between_min_max": "Antara {min} dan {max}",
                         "bitmask": "Bitmask",
                         "endpoint": "Titik akhir {endpoint}",
                         "error_device_not_found": "Perangkat tidak ditemukan",
+                        "error_not_in_range": "Nilai harus berada di antara {min} dan {max}",
                         "header": "Konfigurasi perangkat Z-Wave",
                         "introduction": "Kelola dan seseuaikan parameter konfigurasi perangkat tertentu untuk perangkat yang dipilih.",
                         "parameter": "Parameter",

@@ -5686,9 +5686,11 @@
                     "node_config": {
                         "attribution": "Gerätekonfigurationsparameter und -beschreibungen werden von der {device_database} bereitgestellt",
                         "battery_device_notice": "Batteriebetriebene Geräte müssen wach sein, um ihre Konfiguration zu aktualisieren. Anweisungen zum Aufwecken findest du im Handbuch deines Geräts.",
+                        "between_min_max": "Zwischen {min} und {max}",
                         "bitmask": "Bitmaske",
                         "endpoint": "Endpunkt {endpoint}",
                         "error_device_not_found": "Gerät nicht gefunden",
+                        "error_not_in_range": "Der Wert muss zwischen {min} und {max} liegen",
                         "header": "Z-Wave Gerätekonfiguration",
                         "introduction": "Verwalten und Anpassen der gerätespezifischen Konfigurationsparameter für das ausgewählte Gerät",
                         "parameter": "Parameter",
@@ -6507,7 +6509,7 @@
                                 "conditional": "Bedingungen",
                                 "divider": "Trennlinie",
                                 "perform-action": "Aktion ausführen",
-                                "section": "Sektion",
+                                "section": "Abschnitt",
                                 "weblink": "Webseiten-Link"
                             },
                             "entity_row_editor": "Editor für Entitätszeilen",
@@ -6888,15 +6890,15 @@
                         "testing_pass": "Bedingung erfüllt"
                     },
                     "delete_section": {
-                        "named_section": "Sektion „{name}“",
-                        "text_named_section_cards": "Die Sektion „{name}“ und alle zugehörigen Karten werden gelöscht.",
-                        "text_named_section_only": "Die Sektion „{name}“ wird gelöscht.",
+                        "named_section": "Abschnitt „{name}“",
+                        "text_named_section_cards": "Der Abschnitt „{name}“ und alle zugehörigen Karten werden gelöscht.",
+                        "text_named_section_only": "Der Abschnitt „{name}“ wird gelöscht.",
                         "text_section_and_cards": "{section} und alle zugehörigen Karten werden gelöscht.",
                         "text_section_only": "{section} wird gelöscht.",
-                        "text_unnamed_section_cards": "Diese Sektion und alle dazugehörigen Karten werden gelöscht.",
-                        "text_unnamed_section_only": "Diese Sektion wird gelöscht.",
-                        "title": "Sektion löschen",
-                        "unnamed_section": "Diese Sektion"
+                        "text_unnamed_section_cards": "Dieser Abschnitt und alle dazugehörigen Karten werden gelöscht.",
+                        "text_unnamed_section_only": "Dieser Abschnitt wird gelöscht.",
+                        "title": "Abschnitt löschen",
+                        "unnamed_section": "Dieser Abschnitt"
                     },
                     "edit_badge": {
                         "add": "Badge hinzufügen",
@@ -6944,7 +6946,7 @@
                         "layout": {
                             "explanation": "Konfiguriere, wie die Karte auf dem Dashboard angezeigt wird. Diese Einstellungen überschreiben die Standardgröße und -position der Karte.",
                             "full_width": "Karte in voller Breite",
-                            "full_width_helper": "Die gesamte Breite der Sektion einnehmen, unabhängig von deren Größe"
+                            "full_width_helper": "Die gesamte Breite des Abschnitts einnehmen, unabhängig von deren Größe"
                         },
                         "move": "Verschieben",
                         "move_after": "Karte nach hinten verschieben",
@@ -6977,17 +6979,17 @@
                     "edit_section": {
                         "edit_ui": "Im visuellen Editor bearbeiten",
                         "edit_yaml": "In YAML bearbeiten",
-                        "header": "Sektion bearbeiten",
+                        "header": "Abschnitt bearbeiten",
                         "settings": {
                             "column_span": "Breite",
-                            "column_span_helper": "Größere Sektionen werden verkleinert, damit sie auf die Anzeige passen (z. B. auf Mobilgeräten).",
+                            "column_span_helper": "Größere Abschnitte werden verkleinert, damit sie auf die Anzeige passen (z. B. auf Mobilgeräten).",
                             "title": "Titel",
-                            "title_helper": "Der Titel wird oben in der Sektion angezeigt. Lass das Feld leer, um den Titel auszublenden."
+                            "title_helper": "Der Titel wird oben im Abschnitt angezeigt. Lass das Feld leer, um den Titel auszublenden."
                         },
                         "tab_settings": "Einstellungen",
                         "tab_visibility": "Sichtbarkeit",
                         "visibility": {
-                            "explanation": "Die Sektion wird angezeigt, wenn ALLE unten aufgeführten Bedingungen erfüllt sind. Wenn keine Bedingungen festgelegt sind, wird die Sektion immer angezeigt."
+                            "explanation": "Der Abschnitt wird angezeigt, wenn ALLE unten aufgeführten Bedingungen erfüllt sind. Wenn keine Bedingungen festgelegt sind, wird der Abschnitt immer angezeigt."
                         }
                     },
                     "edit_section_title": {
@@ -7001,19 +7003,19 @@
                             "title": "Hinzufügen eines Hintergrunds zur Ansicht"
                         },
                         "delete": "Ansicht löschen",
-                        "dense_section_placement": "Dichte Sektionsplatzierung",
-                        "dense_section_placement_helper": "Es wird versucht, Lücken mit Sektionen zu füllen, die in die Lücke passen. Dadurch wird die Platzierung der Sektionen möglicherweise weniger vorhersehbar.",
+                        "dense_section_placement": "Dichte Abschnittsplatzierung",
+                        "dense_section_placement_helper": "Es wird versucht, Lücken mit Abschnitten zu füllen, die in die Lücke passen. Dadurch wird die Platzierung der Abschnitte möglicherweise weniger vorhersehbar.",
                         "edit": "Ansicht bearbeiten",
                         "edit_ui": "Im visuellen Editor bearbeiten",
                         "edit_yaml": "In YAML bearbeiten",
                         "error_same_url": "Du kannst eine Ansicht nicht mit derselben URL wie eine andere vorhandene Ansicht speichern.",
                         "header": "Konfiguration anzeigen",
                         "header_name": "{name} Konfiguration anzeigen",
-                        "max_columns": "Maximale Anzahl von Sektionen in der Breite",
+                        "max_columns": "Maximale Anzahl von Abschnitten in der Breite",
                         "move_left": "Ansicht nach links verschieben",
                         "move_right": "Ansicht nach rechts verschieben",
                         "saving_failed": "Speichern fehlgeschlagen",
-                        "section_specifics": "Spezifische Einstellungen für die Sektionsansicht",
+                        "section_specifics": "Spezifische Einstellungen für die Abschnittsansicht",
                         "subview": "Unteransicht",
                         "subview_helper": "Unteransichten erscheinen nicht in Registerkarten und haben einen Zurück-Button.",
                         "tab_background": "Hintergrund",
@@ -7022,13 +7024,13 @@
                         "tab_visibility": "Sichtbarkeit",
                         "type": "Ansichtsart",
                         "type_helper_others": "Du kannst deine Ansicht nicht auf einen anderen Typ ändern, da die Migration noch nicht unterstützt wird. Beginne mit einer neuen Ansicht von vorne, wenn du einen anderen Ansichtstyp verwenden möchtest.",
-                        "type_helper_sections": "Du kannst deine Ansicht nicht ändern, um den Ansichtstyp „Sektionen“ zu verwenden, da die Migration noch nicht unterstützt wird. Wenn du mit der Ansicht „Sektionen“ experimentieren möchtest, beginne ganz von vorne mit einer neuen Ansicht.",
+                        "type_helper_sections": "Du kannst deine Ansicht nicht ändern, um den Ansichtstyp „Abschnitte“ zu verwenden, da die Migration noch nicht unterstützt wird. Wenn du mit der Ansicht „Abschnitte“ experimentieren möchtest, beginne ganz von vorne mit einer neuen Ansicht.",
                         "type_warning_others": "Du kannst deine Ansicht nicht auf einen anderen Typ ändern, da die Migration noch nicht unterstützt wird. Beginne mit einer neuen Ansicht von vorne, wenn du einen anderen Ansichtstyp verwenden möchtest.",
-                        "type_warning_sections": "Du kannst deine Ansicht nicht ändern, um den Ansichtstyp „Sektionen“ zu verwenden, da die Migration noch nicht unterstützt wird. Wenn du mit der Ansicht „Sektionen“ experimentieren möchtest, beginne ganz von vorne mit einer neuen Ansicht.",
+                        "type_warning_sections": "Du kannst deine Ansicht nicht ändern, um den Ansichtstyp „Abschnitte“ zu verwenden, da die Migration noch nicht unterstützt wird. Wenn du mit der Ansicht „Abschnitte“ experimentieren möchtest, beginne ganz von vorne mit einer neuen Ansicht.",
                         "types": {
                             "masonry": "Kacheln (Standard)",
                             "panel": "Panel (1 Karte)",
-                            "sections": "Sektionen (experimentell)",
+                            "sections": "Abschnitte (experimentell)",
                             "sidebar": "Seitenleiste"
                         },
                         "visibility": {
@@ -7247,7 +7249,7 @@
                         "para_no_id": "Dieses Element hat keine ID. Bitte füge diesem Element eine ID in „ui-lovelace.yaml“ hinzu."
                     },
                     "move_card": {
-                        "error_text_section": "Das Verschieben einer Karte in eine Sektionsansicht wird noch nicht unterstützt. Verwende stattdessen Kopieren/Ausschneiden/Einfügen.",
+                        "error_text_section": "Das Verschieben einer Karte in eine Abschnittsansicht wird noch nicht unterstützt. Verwende stattdessen Kopieren/Ausschneiden/Einfügen.",
                         "error_title": "Unmöglich, die Karte zu bewegen",
                         "header": "Wähle eine Ansicht, in die die Karte verschoben werden soll."
                     },
@@ -7284,9 +7286,9 @@
                     "section": {
                         "add_badge": "Badge hinzufügen",
                         "add_card": "Karte hinzufügen",
-                        "add_section": "Sektion hinzufügen",
-                        "create_section": "Sektion erstellen",
-                        "unnamed_section": "Unbenannte Sektion"
+                        "add_section": "Abschnitt hinzufügen",
+                        "create_section": "Abschnitt erstellen",
+                        "unnamed_section": "Unbenannter Abschnitt"
                     },
                     "select_view": {
                         "dashboard_label": "Dashboard",
@@ -7378,11 +7380,11 @@
                     "confirm_delete_text": "Möchtest du deine Ansicht „{name}“ wirklich löschen?",
                     "delete_named_view_cards": "Die Ansicht „{name}“ und alle zugehörigen Karten werden gelöscht.",
                     "delete_named_view_only": "Die Ansicht „{name}“ wird gelöscht.",
-                    "delete_named_view_sections": "Die Ansicht „{name}“ und alle ihre Sektionen werden gelöscht.",
+                    "delete_named_view_sections": "Die Ansicht „{name}“ und alle ihre Abschnitte werden gelöscht.",
                     "delete_title": "Ansicht löschen",
                     "delete_unnamed_view_cards": "Diese Ansicht und alle zugehörigen Karten werden gelöscht.",
                     "delete_unnamed_view_only": "Diese Ansicht wird gelöscht.",
-                    "delete_unnamed_view_sections": "Diese Ansicht und alle ihre Sektionen werden gelöscht."
+                    "delete_unnamed_view_sections": "Diese Ansicht und alle ihre Abschnitte werden gelöscht."
                 },
                 "warning": {
                     "attribute_not_found": "Attribut {attribute} nicht verfügbar in: {entity}",
@@ -7571,7 +7573,7 @@
                         }
                     },
                     "sections": {
-                        "description": "Dieses Dashboard verwendet die in Home Assistant 2024.3 veröffentlichte Sektionsansicht. Erfahre mehr darüber in diesem {blog_post}.",
+                        "description": "Dieses Dashboard verwendet die in Home Assistant 2024.3 veröffentlichte Abschnittsansicht. Erfahre mehr darüber in diesem {blog_post}.",
                         "description_blog_post": "Blogbeitrag",
                         "entities": {
                             "media_player": {

@@ -5686,9 +5686,11 @@
                     "node_config": {
                         "attribution": "Laitteen määritysparametrit ja kuvaukset tarjoavat {device_database}",
                         "battery_device_notice": "Akkulaitteiden on oltava hereillä, jotta ne voivat päivittää konfiguraationsa. Katso laitteen käyttöoppaasta ohjeet laitteen herättämiseen.",
+                        "between_min_max": "Välillä {min} ja {max}",
                         "bitmask": "Bittinaamio",
                         "endpoint": "Loppupiste {endpoint}",
                         "error_device_not_found": "Laitetta ei löydy.",
+                        "error_not_in_range": "Arvon on oltava välillä {min} ja {max}",
                         "header": "Z-Wave-laitteen konfigurointi",
                         "introduction": "Hallitse ja säädä valitun laitteen laitekohtaisia konfigurointiparametreja",
                         "parameter": "Parametri",

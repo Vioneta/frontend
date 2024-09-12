@@ -238,10 +238,16 @@
         },
         "card": {
             "alarm_control_panel": {
-                "arm_vacation": "Naoružaj u status \"na odmoru\""
+                "arm_vacation": "Naoružaj u status \"na odmoru\"",
+                "clear_code": "Očisti",
+                "code": "Kod",
+                "disarm": "Deaktiviraj"
             },
             "area": {
                 "area_not_found": "Oblast nije pronađena."
+            },
+            "automation": {
+                "last_triggered": "Zadnji put aktiviran"
             },
             "button": {
                 "press": "Pritisni"
@@ -250,15 +256,23 @@
                 "not_available": "Слика није доступна"
             },
             "climate": {
-                "mode": "Мод"
+                "currently": "Trenutno",
+                "mode": "Мод",
+                "on_off": "Uključeno / Isključeno"
             },
             "cover": {
                 "position": "Pozicija"
             },
+            "fan": {
+                "direction": "Pravac",
+                "oscillate": "Osciliranje"
+            },
             "light": {
-                "brightness": "Osvetljenost"
+                "brightness": "Osvetljenost",
+                "effect": "Efekat"
             },
             "lock": {
+                "code": "Kod",
                 "lock": "Zaključaj",
                 "unlock": "Otključaj"
             },
@@ -278,19 +292,36 @@
             "persistent_notification": {
                 "dismiss": "Одбаци"
             },
+            "scene": {
+                "activate": "Aktiviraj"
+            },
             "update": {
                 "installing": "Instaliranje",
                 "installing_with_progress": "Instaliranje ({progress}%)",
                 "up_to_date": "Ažuriran"
+            },
+            "vacuum": {
+                "actions": {
+                    "resume_cleaning": "Nastavi čišćenje",
+                    "return_to_base": "Povratak u bazu",
+                    "start_cleaning": "Započni čišćenje",
+                    "turn_off": "Isključi",
+                    "turn_on": "Uključi"
+                }
             },
             "water_heater": {
                 "mode": "Мод"
             },
             "weather": {
                 "attributes": {
-                    "visibility": "Vidljivost"
+                    "air_pressure": "Притисак ваздуха",
+                    "humidity": "Vlažnost",
+                    "temperature": "Temperatura",
+                    "visibility": "Vidljivost",
+                    "wind_speed": "Brzina vetra"
                 },
                 "daily": "Дневно",
+                "forecast": "Prognoza",
                 "hourly": "Сваки сат",
                 "twice_daily": "Два пута дневно"
             }
@@ -441,6 +472,10 @@
                 "unsupported_format": "Неподржан формат, изаберите JPEG, PNG или GIF слику.",
                 "uploading": "Уплоадинг",
                 "uploading_name": "Уплоадинг {name}"
+            },
+            "history_charts": {
+                "loading_history": "Učitavanje istorije stanja...",
+                "no_history_found": "Istorija stanja nije pronađena"
             },
             "label-picker": {
                 "add_label": "Dodaj oznaku",
@@ -751,6 +786,7 @@
             "remember": "Запамти"
         },
         "notification_drawer": {
+            "click_to_configure": "Кликните на дугме да бисте конфигурисали {entity}",
             "close": "Zatvori",
             "dismiss_all": "Odbaci sve",
             "empty": "Nema obaveštenja",
@@ -958,6 +994,7 @@
                                         "target_unknown_device": "nepoznat uređaj",
                                         "target_unknown_entity": "nepoznat entitet"
                                     },
+                                    "label": "Izvrši akciju",
                                     "response_variable": "Promenljiva odgovora"
                                 },
                                 "set_conversation_response": {
@@ -2031,8 +2068,13 @@
                         "local_only": "Samo lokalno",
                         "password": "Лозинка"
                     },
+                    "caption": "Korisnici",
                     "editor": {
+                        "activate_user": "Aktiviraj korisnika",
                         "caption": "Прикажи корисника",
+                        "change_password": "Promeni lozinku",
+                        "deactivate_user": "Deactiviraj korisnika",
+                        "delete_user": "Obriši korisnika",
                         "local_only": "Moguće prijavljivanje samo sa lokalne mreže"
                     },
                     "is_local": "Lokalni korisnik",

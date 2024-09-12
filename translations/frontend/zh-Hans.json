@@ -5686,9 +5686,11 @@
                     "node_config": {
                         "attribution": "设备配置参数和描述由 {device_database} 提供。",
                         "battery_device_notice": "电池供电的设备必须处于唤醒状态才能更新配置。请参阅设备说明书，了解如何唤醒设备。",
+                        "between_min_max": "介于 {min} 和 {max} 之间",
                         "bitmask": "位掩码",
                         "endpoint": "端点 {endpoint}",
                         "error_device_not_found": "未找到设备",
+                        "error_not_in_range": "值必须介于 {min} 和 {max} 之间",
                         "header": "Z-Wave 设备配置",
                         "introduction": "管理并调整所选设备的具体配置参数。",
                         "parameter": "参数",

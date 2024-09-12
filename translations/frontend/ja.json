@@ -5686,9 +5686,11 @@
                     "node_config": {
                         "attribution": "デバイスの構成パラメータと説明は、{device_database} によって提供されています。",
                         "battery_device_notice": "バッテリーデバイスは、設定を更新するためにスリープ状態にする必要があります。デバイスのスリープ解除方法については、デバイスのマニュアルを参照してください。",
+                        "between_min_max": "{min}から{max}の間",
                         "bitmask": "ビットマスク",
                         "endpoint": "終端 {endpoint}",
                         "error_device_not_found": "デバイスが見つかりません",
+                        "error_not_in_range": "値は{min}から{max}までの範囲でなければなりません",
                         "header": "Z-Waveデバイスの設定",
                         "introduction": "選択したデバイスの固有の設定パラメータを管理および調整する",
                         "parameter": "パラメータ",

@@ -5686,9 +5686,11 @@
                     "node_config": {
                         "attribution": "Įrenginio konfigūracijos parametrus ir aprašymus pateikia {device_database}",
                         "battery_device_notice": "Įrenginiai su baterijomis turi būti pažadinti, kad būtų galima atnaujinti jų konfigūraciją. Instrukcijas, kaip pažadinti įrenginį, rasite įrenginio vadove.",
+                        "between_min_max": "Tarp {min} ir {max}",
                         "bitmask": "Bitmask",
                         "endpoint": "Galutinis taškas {endpoint}",
                         "error_device_not_found": "Įrenginys nerastas",
+                        "error_not_in_range": "Vertė turi būti nuo {min} iki {max}",
                         "header": "Z-Wave įrenginio konfigūracija",
                         "introduction": "Tvarkyti ir koreguoti pasirinkto įrenginio konfigūracijos parametrus",
                         "parameter": "Parametras",

@@ -595,7 +595,7 @@
                 "heating": "{name} 난방중",
                 "high": "높음",
                 "humidity_target": "희망 습도",
-                "low": "낮음",
+                "low": "약",
                 "mode": "모드",
                 "on_off": "켜기 / 끄기",
                 "preset": "프리셋",
@@ -632,9 +632,9 @@
                 "preset_mode": "프리셋 모드",
                 "reverse": "뒤로",
                 "speed": {
-                    "high": "높음",
-                    "low": "낮음",
-                    "medium": "보통"
+                    "high": "강",
+                    "low": "약",
+                    "medium": "중"
                 }
             },
             "humidifier": {

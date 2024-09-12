@@ -37,7 +37,7 @@ pip-selfcheck.json
 !.vscode/tasks.json
 
 # Cast dev settings
-src/cast/dev_const.ts
+# src/cast/dev_const.ts
 
 # Secrets
 .lokalise_token

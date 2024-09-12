@@ -2661,6 +2661,7 @@
                                         "service_based_on_template_no_targets": "Een actie uitvoeren op basis van een sjabloon",
                                         "service_name": "{domain} ''{name}'' op {targets}",
                                         "service_name_no_targets": "{domain} ''{name}''",
+                                        "target_every_entity": "Elke entiteit",
                                         "target_template": "sjabloon {name}",
                                         "target_unknown_area": "onbekende ruimte",
                                         "target_unknown_device": "onbekend apparaat",
@@ -5677,9 +5678,11 @@
                     "node_config": {
                         "attribution": "Apparaatconfiguratieparameters en -beschrijvingen worden geleverd door de {device_database}",
                         "battery_device_notice": "Apparaten met een accu moeten gewekt om hun configuratie bij te werken. Raadpleeg de handleiding van je apparaat voor instructies over hoe je het apparaat kunt wekken.",
+                        "between_min_max": "Tussen {min} en {max}",
                         "bitmask": "Bitmasker",
                         "endpoint": "Endpoint {endpoint}",
                         "error_device_not_found": "Apparaat niet gevonden",
+                        "error_not_in_range": "Waarde moet tussen {min} en {max} zijn",
                         "header": "Z-Wave-apparaatconfiguratie",
                         "introduction": "Beheren en aanpassen van apparaatspecifieke configuratieparameters voor het geselecteerde apparaat",
                         "parameter": "Parameter",
@@ -6407,7 +6410,8 @@
                                 "minimal": "Minimaal (icon only)"
                             },
                             "displayed_elements_options": {
-                                "icon": "Pictogram"
+                                "icon": "Pictogram",
+                                "name": "Naam"
                             },
                             "interactions": "Interacties",
                             "name": "Entiteit",
@@ -6945,6 +6949,7 @@
                         "edit_yaml": "Bewerken in YAML",
                         "header": "Sectie bewerken",
                         "settings": {
+                            "column_span": "Breedte",
                             "title": "Titel",
                             "title_helper": "De titel zal bovenaan de sectie getoond worden. Laat leeg om deze te verbergen."
                         },
