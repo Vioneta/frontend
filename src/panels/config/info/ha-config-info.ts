@@ -1,12 +1,4 @@
 import "@material/mwc-list/mwc-list";
-// import {
-//   mdiBug,
-//   mdiFileDocument,
-//   mdiHandsPray,
-//   mdiHelp,
-//   mdiNewspaperVariant,
-//   mdiTshirtCrew,
-// } from "@mdi/js";
 import {
   CSSResultGroup,
   LitElement,
@@ -26,7 +18,6 @@ import {
 } from "../../../data/hassio/host";
 import { HassioInfo, fetchHassioInfo } from "../../../data/hassio/supervisor";
 import "../../../layouts/hass-subpage";
-// import { mdiHomeAssistant } from "../../../resources/home-assistant-logo-svg";
 import { haStyle } from "../../../resources/styles";
 import type { HomeAssistant, Route } from "../../../types";
 import { documentationUrl } from "../../../util/documentation-url";
