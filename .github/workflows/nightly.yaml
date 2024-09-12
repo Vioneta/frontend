@@ -20,7 +20,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v4.1.7
+        uses: actions/checkout@v4.1.6
 
       - name: Set up Python ${{ env.PYTHON_VERSION }}
         uses: actions/setup-python@v5
@@ -28,7 +28,7 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Setup Node
-        uses: actions/setup-node@v4.0.3
+        uses: actions/setup-node@v4.0.2
         with:
           node-version-file: ".nvmrc"
           cache: yarn
@@ -36,10 +36,10 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Download translations
-        run: ./script/translations_download
-        env:
-          LOKALISE_TOKEN: ${{ secrets.LOKALISE_TOKEN }}
+      # - name: Download translations
+      #   run: ./script/translations_download
+      #   env:
+      #     LOKALISE_TOKEN: ${{ secrets.LOKALISE_TOKEN }}
 
       - name: Bump version
         run: script/version_bump.js nightly
@@ -50,21 +50,21 @@ jobs:
           yarn install
           export SKIP_FETCH_NIGHTLY_TRANSLATIONS=1
           script/build_frontend
-          rm -rf dist home_assistant_frontend.egg-info
+          rm -rf dist vioneta_agro_frontend.egg-info
           python3 -m build
 
       - name: Archive translations
         run: tar -czvf translations.tar.gz translations
 
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v4.3.5
+        uses: actions/upload-artifact@v4.3.3
         with:
           name: wheels
-          path: dist/home_assistant_frontend*.whl
+          path: dist/vioneta_agro_frontend*.whl
           if-no-files-found: error
 
       - name: Upload translations
-        uses: actions/upload-artifact@v4.3.5
+        uses: actions/upload-artifact@v4.3.3
         with:
           name: translations
           path: translations.tar.gz

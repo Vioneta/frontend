@@ -3,18 +3,18 @@ requires = ["setuptools~=68.0", "wheel~=0.40.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name         = "home-assistant-frontend"
+name         = "vioneta-agro-frontend"
 version      = "20240809.0"
 license      = {text = "Apache-2.0"}
-description  = "The Home Assistant frontend"
+description  = "The Vioneta Agro frontend"
 readme       = "README.md"
 authors      = [
-    {name = "The Home Assistant Authors", email = "hello@home-assistant.io"}
+    {name = "The Vioneta Agro Authors", email = "admin@vioneta.com"}
 ]
 requires-python = ">=3.11.0"
 
 [project.urls]
-"Homepage" = "https://github.com/home-assistant/frontend"
+"Homepage" = "https://github.com/Vioneta/frontend"
 
 [tool.setuptools]
 platforms = ["any"]
